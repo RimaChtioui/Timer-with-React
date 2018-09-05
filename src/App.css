@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer {
+  font-size: 100px;
+  font-weight: bold;
+  width: fit-content;
+  text-align: center;
+  width: 500px;
+}
+.spans {
+  font-size: 20px;
+  width: fit-content;
+  text-align: center;
+  width: 410px;
+  display: flex;
+  justify-content: space-between;
+}
+.spanname {
+  padding: 0 30px;
+  color: grey;
+}
+
+.buttons {
+  width: 410px;
+  text-align: center;
+  margin-left: 480px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.startButton {
+  border: 2px solid blue;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: white;
+  color: blue;
+  font-size: 20px;
+}
+
+.resetButton {
+  border: 2px solid red;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: white;
+  color: red;
+  font-size: 20px;
+}
+
+.startButton:hover {
+  color: rgb(87, 204, 240);
+  border: 2px solid rgb(87, 204, 240);
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  color: rgb(255, 113, 196);
+  border: 2px solid rgb(255, 113, 196);
+  cursor: pointer;
+}
